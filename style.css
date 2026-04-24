@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+body{
+    margin: 0px 0px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    height: 120vh;
+}
+header{
+    background-color: #434343;
+    color: white;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    background-color: #343434;
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    width: 25%;
+    height: 100%;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.right{
+    padding: 15px 25px;
+    background-color: #343434;
+    width: 30%;
+    height: 98.1%;
+}
+.mainLG1{
+    width: 45%;
+    height: 100%;
+    background-color: #A0BCC9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+}
+.mainLG2{
+    width: 45%;
+    height: 100%;
+    background-color: #9e9e9e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+}
+.mainLG3{
+    width: 45%;
+    height: 100%;
+    background-color: #963c49;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+}
+.mainLG4{
+    width: 45%;
+    height: 100%;
+    background-color: #bf428d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+}
+.mainLG45{
+    width: 45%;
+    height: 100%;
+    background-color: #484339;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+}
+.mainLG5{
+    width: 45%;
+    height: 100%;
+    background-color: #c2d8e5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+}
+.mainLG6{
+    width: 45%;
+    height: 100%;
+    background-color: #8d4b5b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+}
+.mainLG65{
+    width: 45%;
+    height: 100%;
+    background-color: #e7ddd1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+}
+.mainLG68{
+    width: 45%;
+    height: 100%;
+    background-color: #8ea480;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+}
+.mainLG7{
+    width: 45%;
+    height: 100%;
+    background-color: #505050;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+}
+.mainLG55{
+    width: 45%;
+    height: 100%;
+    background-color: #9e9e9e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+}
+ul>h3{
+    font-size: 30px;
+}
+ul{
+    list-style: none;
+}
+li{
+    text-decoration: none;
+    font-size: 24px;
+}
+.gap1{
+    height: 8px;
+}
+.gap2{
+    height: 20px;
+}
+.gap3{
+    height: 13px;
+}
+.gap4{
+    height: 40px;
+}
+.massivegap{
+    height: 130px;
+}
+.notice{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lyrics>*{
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    color: white;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+#icon{
+    border-radius: 20px 20px 20px 20px;
+    width: 290px;
+    height: 290px;
+    border: black 4px solid;
+}
+h2{
+    font-size: 37px;
+    text-align: center;
+}
+ol>*{
+    font-size: 23px;
+    margin: 7px 0px;
+}
+h1{
+    font-size: 55px;
+    text-align: center;
+}
+.everything{
+    display: flex;
+    justify-content: space-around;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.forward{
+    height: 59px;
+    width: 59px;
+}
+.back{
+    height: 59px;
+    width: 59px;
+}
+.mute{
+    height: 77px;
+    width: 77px;
+}
+.playPause{
+    height: 59px;
+    width: 59px;
+}
+#vinyl{
+    height: 95px;
+    width: 95px;
+}
+.songName{
+    color: white;
+    font-size: 60px;
+}
+.lyricsSpace{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    justify-content: center;
+}
+.gapVertical{
+    width: 4000px;
+    height: 400px;
+}
+footer{
+    z-index: -999;
+}
+.song{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.btn{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+.btnimg{
+    width: 15px;
+    height: 21px;
+}
+#vinyl.spinning {
+    animation: vinylspin 1s linear infinite;
+}
+@keyframes vinylspin {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
